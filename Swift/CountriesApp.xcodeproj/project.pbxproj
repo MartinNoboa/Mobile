@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89770BE52644BF0400154D74 /* LiveListProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89770BE42644BF0400154D74 /* LiveListProjectApp.swift */; };
+		89770BE52644BF0400154D74 /* CountryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89770BE42644BF0400154D74 /* CountryApp.swift */; };
 		89770BE72644BF0400154D74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89770BE62644BF0400154D74 /* ContentView.swift */; };
 		89770BE92644BF0600154D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89770BE82644BF0600154D74 /* Assets.xcassets */; };
 		89770BEC2644BF0600154D74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89770BEB2644BF0600154D74 /* Preview Assets.xcassets */; };
@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		89770BE12644BF0400154D74 /* LiveListProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveListProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		89770BE42644BF0400154D74 /* LiveListProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveListProjectApp.swift; sourceTree = "<group>"; };
+		89770BE12644BF0400154D74 /* Country.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Country.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89770BE42644BF0400154D74 /* CountryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryApp.swift; sourceTree = "<group>"; };
 		89770BE62644BF0400154D74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89770BE82644BF0600154D74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89770BEB2644BF0600154D74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		89770BD82644BF0400154D74 = {
 			isa = PBXGroup;
 			children = (
-				89770BE32644BF0400154D74 /* LiveListProject */,
+				89770BE32644BF0400154D74 /* Country */,
 				89770BE22644BF0400154D74 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,15 +48,15 @@
 		89770BE22644BF0400154D74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89770BE12644BF0400154D74 /* LiveListProject.app */,
+				89770BE12644BF0400154D74 /* Country.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		89770BE32644BF0400154D74 /* LiveListProject */ = {
+		89770BE32644BF0400154D74 /* Country */ = {
 			isa = PBXGroup;
 			children = (
-				89770BE42644BF0400154D74 /* LiveListProjectApp.swift */,
+				89770BE42644BF0400154D74 /* CountryApp.swift */,
 				89770BE62644BF0400154D74 /* ContentView.swift */,
 				89770BE82644BF0600154D74 /* Assets.xcassets */,
 				89770BED2644BF0600154D74 /* Info.plist */,
@@ -64,7 +64,7 @@
 				89770BF32644C48000154D74 /* CountryModel.swift */,
 				89770BF52644C81100154D74 /* CountryController.swift */,
 			);
-			path = LiveListProject;
+			path = Country;
 			sourceTree = "<group>";
 		};
 		89770BEA2644BF0600154D74 /* Preview Content */ = {
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		89770BE02644BF0400154D74 /* LiveListProject */ = {
+		89770BE02644BF0400154D74 /* Country */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89770BF02644BF0600154D74 /* Build configuration list for PBXNativeTarget "LiveListProject" */;
+			buildConfigurationList = 89770BF02644BF0600154D74 /* Build configuration list for PBXNativeTarget "Country" */;
 			buildPhases = (
 				89770BDD2644BF0400154D74 /* Sources */,
 				89770BDE2644BF0400154D74 /* Frameworks */,
@@ -90,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = LiveListProject;
-			productName = LiveListProject;
-			productReference = 89770BE12644BF0400154D74 /* LiveListProject.app */;
+			name = Country;
+			productName = Country;
+			productReference = 89770BE12644BF0400154D74 /* Country.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 89770BDC2644BF0400154D74 /* Build configuration list for PBXProject "LiveListProject" */;
+			buildConfigurationList = 89770BDC2644BF0400154D74 /* Build configuration list for PBXProject "Country" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89770BE02644BF0400154D74 /* LiveListProject */,
+				89770BE02644BF0400154D74 /* Country */,
 			);
 		};
 /* End PBXProject section */
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89770BE72644BF0400154D74 /* ContentView.swift in Sources */,
-				89770BE52644BF0400154D74 /* LiveListProjectApp.swift in Sources */,
+				89770BE52644BF0400154D74 /* CountryApp.swift in Sources */,
 				89770BF62644C81100154D74 /* CountryController.swift in Sources */,
 				89770BF42644C48000154D74 /* CountryModel.swift in Sources */,
 			);
@@ -276,16 +276,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"LiveListProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Country/Preview Content\"";
 				DEVELOPMENT_TEAM = F47HFFQJCW;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = LiveListProject/Info.plist;
+				INFOPLIST_FILE = Country/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.LiveListProject;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.Country;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,16 +298,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"LiveListProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Country/Preview Content\"";
 				DEVELOPMENT_TEAM = F47HFFQJCW;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = LiveListProject/Info.plist;
+				INFOPLIST_FILE = Country/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.LiveListProject;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.Country;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89770BDC2644BF0400154D74 /* Build configuration list for PBXProject "LiveListProject" */ = {
+		89770BDC2644BF0400154D74 /* Build configuration list for PBXProject "Country" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89770BEE2644BF0600154D74 /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89770BF02644BF0600154D74 /* Build configuration list for PBXNativeTarget "LiveListProject" */ = {
+		89770BF02644BF0600154D74 /* Build configuration list for PBXNativeTarget "Country" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89770BF12644BF0600154D74 /* Debug */,
